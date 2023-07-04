@@ -6,3 +6,4 @@ emails = []
     emails << mail
 end
  emails.each {|x| puts " #{x}"}
+

@@ -13,7 +13,7 @@ while user_year < 2023 do
     user_year += 1
     age += 1
     else 
-    puts "Il y a #{age} an(s) tu avais #{age}"
+    puts "Il y a #{current_year - user_year} an(s) tu avais #{age}"
     user_year += 1
     age += 1
     end

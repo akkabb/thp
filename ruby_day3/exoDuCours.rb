@@ -22,4 +22,9 @@ def perform
     greet(first_name, last_name)
 end
 
-perform
+# perform
+i = 0
+while i != 5
+    puts gets.chomp
+    i += 1
+end
